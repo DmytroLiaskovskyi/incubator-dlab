@@ -26,7 +26,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
   styleUrls: ['./demo-picture-dialog.component.scss']
 })
 export class DemoPictureDialogComponent implements OnInit {
-  private isVisible: boolean = false;
+  public isVisible: boolean = false;
 
   constructor(
     @Inject(MAT_DIALOG_DATA) public data: any,
