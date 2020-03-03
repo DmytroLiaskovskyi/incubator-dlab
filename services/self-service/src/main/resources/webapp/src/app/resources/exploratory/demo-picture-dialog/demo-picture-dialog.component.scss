@@ -18,18 +18,26 @@
  */
 
 .demo-dialog{
-  .dialog-content{
+  min-height: 85vh;
+
+  .dialog-content {
     position: relative;
     overflow: hidden;
-    height: 100%;
+    min-height: 70vh;
     text-align: center;
-    .preloader{
+
+    .preloader {
       position: absolute;
-      top: 45%;
+      top: 48%;
       width: 90%;
-      left: 5%
+      left: 5%;
+
+      .loading-message {
+        margin-bottom: 10px;
+      }
     }
-    .demo-picture{
+
+    .demo-picture {
       width: 100%;
     }
   }

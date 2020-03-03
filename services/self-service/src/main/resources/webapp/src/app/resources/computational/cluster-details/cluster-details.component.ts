@@ -132,8 +132,7 @@ export class DetailComputationalResourcesComponent implements OnInit {
       demoData.title = 'Hadoop';
       demoData.url = 'assets/img/demo/handoop_cluster.png';
     }
-    this.dialog.open(DemoPictureDialogComponent, { data: demoData, panelClass: 'modal-fullscreen' })
-      .afterClosed().subscribe(() => console.log('done'));
+    this.dialog.open(DemoPictureDialogComponent, { data: demoData, panelClass: 'modal-fullscreen' });
   }
 
 }

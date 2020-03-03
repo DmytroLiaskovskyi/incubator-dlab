@@ -147,7 +147,6 @@ export class DetailDialogComponent implements OnInit {
     } else if (template === 'Superset') {
        demoData.url = 'assets/img/demo/superset.png';
     }
-    this.dialog.open(DemoPictureDialogComponent, { data: demoData, panelClass: 'modal-fullscreen' })
-      .afterClosed().subscribe(() => console.log('done'));
+    this.dialog.open(DemoPictureDialogComponent, { data: demoData, panelClass: 'modal-fullscreen' });
   }
 }
