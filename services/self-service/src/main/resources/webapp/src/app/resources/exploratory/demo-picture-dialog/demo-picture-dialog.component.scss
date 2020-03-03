@@ -19,8 +19,16 @@
 
 .demo-dialog{
   .dialog-content{
-    font-size: 0;
-
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+    .preloader{
+      position: absolute;
+      top: 45%;
+      width: 90%;
+      left: 5%
+    }
     .demo-picture{
       width: 100%;
     }

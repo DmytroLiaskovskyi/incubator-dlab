@@ -35,8 +35,8 @@ export class DemoPictureDialogComponent implements OnInit {
 
   ngOnInit() {
   }
-show() {
-  this.isVisible = true;
-}
 
+  public show() {
+    this.isVisible = true;
+  }
 }
